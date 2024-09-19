@@ -1,0 +1,25 @@
+const accountId = 144553
+let accountEmail = "hitesh@google.com"
+var accountPassword = "12345"
+accountCity = "Jaipur"
+let accountState;  // it will give undefind because here we are not assiging the value to the variable
+
+// accountId = 2 // not allowed
+
+
+accountEmail = "hc@hc.com"
+accountPassword = "21212121"
+accountCity = "Bengaluru"
+
+console.log(accountId);
+
+/*
+Prefer not to use var
+because of issue in block scope and functional scope
+*/
+
+//{
+// this is actually called scope or block
+//}
+
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState]) // this is for printing the data in tabular form and using this we can write whole variables in one line
